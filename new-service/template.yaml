@@ -1,0 +1,9 @@
+name: new-service
+description: Build a kafka service using Docker
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name

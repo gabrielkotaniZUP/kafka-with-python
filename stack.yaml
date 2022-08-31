@@ -4,8 +4,8 @@ display-name: kafka-with-python
 picture: stack.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - Docker-compose
+  - Python
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
   - docker 
 about: docs/about.md

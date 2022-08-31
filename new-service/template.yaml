@@ -7,3 +7,8 @@ inputs:
     type: text
     name: project_name
     default: project-name
+  
+  - label: Topic name
+    type: text
+    name: topic_name
+    default: new_topic

@@ -12,3 +12,13 @@ inputs:
     type: text
     name: topic_name
     default: new_topic
+hooks:
+  - type: run
+    trigger: after-render
+    working-dir: new_service/templates"
+    linux:
+      - pip install --no-cache-dir -r requirements.txt
+    windows:
+      - cmd /c pip install --no-cache-dir -r requirements.txt
+    mac:
+      - pip install --no-cache-dir -r requirements.txt

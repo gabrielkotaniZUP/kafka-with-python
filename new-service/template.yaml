@@ -15,10 +15,9 @@ inputs:
 hooks:
   - type: run
     trigger: after-render
-    working-dir: new_service/templates"
     linux:
-      - pip install --no-cache-dir -r requirements.txt
+      - pip install --no-cache-dir -r new_service/templates/requirements.txt
     windows:
-      - cmd /c pip install --no-cache-dir -r requirements.txt
+      - cmd /c pip install --no-cache-dir -r new_service/templates/requirements.txt
     mac:
-      - pip install --no-cache-dir -r requirements.txt
+      - pip install --no-cache-dir -r new_service/templates/requirements.txt

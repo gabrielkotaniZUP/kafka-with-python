@@ -15,17 +15,9 @@ inputs:
 hooks:
   - type: run
     trigger: after-render
-    mac:
-      - pwd
-  - type: run
-    trigger: after-render
-    mac:
-      - ls
-  - type: run
-    trigger: after-render
     linux:
-      - pip install --no-cache-dir -r new_service/templates/requirements.txt
+      - pip install --no-cache-dir -r requirements.txt
     windows:
-      - cmd /c pip install --no-cache-dir -r new_service/templates/requirements.txt
+      - cmd /c pip install --no-cache-dir -r requirements.txt
     mac:
-      - pip install --no-cache-dir -r new_service/templates/requirements.txt
+      - pip install --no-cache-dir -r requirements.txt

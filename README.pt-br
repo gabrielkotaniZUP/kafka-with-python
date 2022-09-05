@@ -7,3 +7,17 @@
 Comece facilmente a utilizar o Kafka para desenvolver servios utilizando uma **Arquitetura voltada a eventos**.
 Use `Python` e outras ferramentas com `GUI` para facilitar seus testes, e deixar seu ambiente organizado.
 
+## Tecnologias
++ Python
++ Apache Kafka
++ Docker-compose
+
+## Structure
++ Templates:
+    + [New-Service](###New-Service)
++ Plugins:
+
+
+
+# New-Service
+Crie rapidamente um ambiente local para testar o Kafka. O serviço cria o `Kafka broker`, `Zookeper` e `Kafdrop` automaticamente, sendo acess;ivel via o browser.

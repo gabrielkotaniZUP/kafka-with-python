@@ -7,3 +7,16 @@
 Quickly start using Kafka to develop services using an **Event-Driven Architecture**.
 Use `Python` and other `GUI` tools to facilitate testing, and setup an organized envrionment.
 
+## Technologies
++ Python
++ Apache Kafka
++ Docker-compose
+
+## Structure
++ Templates:
+    + [New-Service](###New-Service)
++ Plugins:
+
+
+### New-Service
+Quickly setup a local environment to test Kafka. The service creates a `Kafka broker`, `Zookeper` and `Kafdrop` automatically, and can be accessed via a web browser.

@@ -2,7 +2,7 @@ description: Create a Kafka Instance and use it with python
 name: kafka-with-python
 display-name: kafka-with-python
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
   - Docker
   - Python
